@@ -1,0 +1,41 @@
+.FormWrapper{
+    height:420px;
+    background-image: url('https://images.pexels.com/photos/268976/pexels-photo-268976.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    border-radius: 6px;
+    background: linear-gradient(to right, rgba(44,124,241,1), rgba(0,209,255,0.5)),
+    url('https://images.pexels.com/photos/268976/pexels-photo-268976.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding:50px 31px 44px 42px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.heading{
+font-size: 32px;
+width: 440px;
+font-weight: 600;
+margin-bottom: 13px;
+
+}
+.lead {
+    font-size: 16px;
+    width: 390px;
+    line-height: 24px;
+}
+.btnWrapper{
+    width:128px;
+    margin-top: 10px;
+}
+.form{
+     background-color: white;
+    width: 491px;
+    border-radius: 6px;
+    overflow: hidden;
+     padding: 25px 20px
+}
+.form > * + *{
+    margin-top: 10px;
+}

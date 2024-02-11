@@ -1,0 +1,42 @@
+.homeWrapper{
+    border:1px solid gray;
+    padding:20px 14px ;
+    background-color:white;
+    height:400px;
+    display:flex;
+    align-items:stretch;
+}
+.main{
+    background-image:url('https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    flex-grow:1;
+    padding:45px 53px;
+}
+.btnWrapper{
+    width:119px;
+    margin-top:17px;
+}
+.mainHeading{
+    font-size:32px;
+    font-weight:bold;
+}
+.mainHeading >span{
+    display:flex;
+    font-size:28px;
+}
+.categories{
+    width:250px;
+}
+.cards{
+    width:220px;
+    flex-shrink: 0;
+    padding-left: 22px;
+}
+.cards > * + *{
+    margin-top: 10px;
+}
+.card > * + * {
+    margin-top: 7px;
+}

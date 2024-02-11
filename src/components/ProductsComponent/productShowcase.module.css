@@ -1,0 +1,16 @@
+.productContainer{
+    display: flex;
+}
+.productTitle{
+    color: var(--dark);
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+}
+.productTitle > span{
+    display: block;
+}
+.btnwrap{
+    width: 123px;
+  margin-top: 10px;
+}

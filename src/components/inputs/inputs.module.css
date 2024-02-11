@@ -1,0 +1,10 @@
+.inputArea{
+    padding: 10px;
+    border-radius: 6px;
+    width: 100%;
+    outline: none;
+    border: 1px solid var(--gray-one);
+}
+.inputArea::placeholder{
+    color: var(--dark);
+}

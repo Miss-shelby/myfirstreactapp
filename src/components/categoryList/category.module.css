@@ -1,0 +1,7 @@
+.categoryElement{
+    display:flex;
+    margin-right:10px;
+}
+.categoryElement:hover{
+    background-color:gray;
+}
